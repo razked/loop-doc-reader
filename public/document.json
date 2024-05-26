@@ -1,0 +1,94 @@
+{
+  "blocks": [
+    {
+      "type": "html",
+      "content": "<div><h3>Lorem Ipsum</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>",
+      "width": 12,
+      "order": 5
+    },
+    {
+      "type": "text",
+      "content": { "title": "Raz Kedem", "content": "Hello Raz Kedem" },
+      "width": 12,
+      "order": 1
+    },
+    {
+      "type": "container",
+      "content": [
+        {
+          "type": "image",
+          "content": {
+            "url": "https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.jpg?t=st=1716711074~exp=1716714674~hmac=6fc8bfa9a5f16934167155442fdc3815dc731ae2d08def4c4fe0f7842f1e10cd&w=1380",
+            "caption": "Thailan view",
+            "alt": "A girl on a boat"
+          },
+          "width": 6,
+          "order": 2
+        },
+        {
+          "type": "quote",
+          "content": "Thailand is the best place to travel",
+          "width": 6,
+          "order": 3
+        }
+      ],
+      "width": 12,
+      "order": 4
+    },
+    {
+      "type": "table",
+      "content": {
+        "headers": ["Header 1", "Header 2", "Header 3"],
+        "rows": [
+          ["Row 1 Data 1", "Row 1 Data 2", "Row 1 Data 3"],
+          ["Row 2 Data 1", "Row 2 Data 2", "Row 2 Data 3"],
+          ["Row 3 Data 1", "Row 3 Data 2", "Row 3 Data 3"]
+        ]
+      },
+      "width": 12,
+      "order": 6
+    },
+    {
+      "type": "collapse",
+      "content": {
+        "title": "Collapsible Section Title",
+        "content": [
+          {
+            "type": "image",
+            "content": {
+              "url": "https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.jpg?t=st=1716711074~exp=1716714674~hmac=6fc8bfa9a5f16934167155442fdc3815dc731ae2d08def4c4fe0f7842f1e10cd&w=1380",
+              "caption": "Thailan view",
+              "alt": "A girl on a boat"
+            },
+            "width": 10,
+            "order": 1
+          },
+          {
+            "type": "quote",
+            "content": "A simple quote",
+            "width": 2,
+            "order": 2
+          }
+        ]
+      },
+      "width": 12,
+      "order": 2
+    },
+    {
+      "type": "image",
+      "content": {
+        "url": "https://img.freepik.com/free-photo/beautiful-girl-standing-boat-looking-mountains-ratchaprapha-dam-khao-sok-national-park-surat-thani-province-thailand_335224-849.jpg?t=st=1716711074~exp=1716714674~hmac=6fc8bfa9a5f16934167155442fdc3815dc731ae2d08def4c4fe0f7842f1e10cd&w=1380",
+        "caption": "Thailan view",
+        "alt": "A girl on a boat"
+      },
+      "width": 12,
+      "order": 1
+    },
+    {
+      "type": "quote",
+      "content": "A simple quote",
+      "width": 12,
+      "order": 2
+    }
+  ]
+}
