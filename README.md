@@ -24,14 +24,37 @@ The document JSON file, named `document.json`, is located in the `public` folder
       "type": "html",
       "content": "<div><h3>Lorem Ipsum</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>",
       "width": 12,
-      "order": 5
+      "order": 1
     },
     {
       "type": "text",
-      "content": { "title": "Raz Kedem", "content": "Hello Raz Kedem" },
+      "content": {
+        "title": "Lorem Ipsum",
+        "content": "Lorem ipsum dolor sit amet"
+      },
       "width": 12,
-      "order": 1
-    }
+      "order": 2
+    },
+    {
+      "type": "container",
+      "width": 12,
+      "order": 3
+      "content": [
+        {
+          "type": "quote",
+          "content": "Lorem Ipsum dolor sit amet",
+          "width": 6,
+          "order": 1
+        },
+        {
+          "type": "quote",
+          "content": "Lorem Ipsum dolor sit amet",
+          "width": 6,
+          "order": 2
+        }
+      ],
+    },
+
     // Other block objects...
   ]
 }
