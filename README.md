@@ -15,6 +15,8 @@ The document JSON file, named `document.json`, is located in the `public` folder
 - `order`: The order of the block within the document.
 - `width`: The width of the block, ranging from 1 to 12, to control its position in the layout.
 
+All available block types and their respective content structures can be found in the `types.ts` file.
+
 ### Example JSON Structure
 
 ```json
